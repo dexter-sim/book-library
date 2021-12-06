@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+h1, label, input {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px black dotted;
+}
+
+.left {
+    flex: 1;
+    background-color: bisque;
+    padding: 2%;
+}
+
+.right {
+    flex: 3;
+    background-color: lightgrey;
+    padding: 2%;
+}
+
+.readInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px black solid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.one, .two {
+    flex: 3
+}
+
+.three {
+    flex: 2;
+}
+
+.four, .five {
+    flex: 1;
+}
+
+#footnote {
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    position: absolute;
+}
